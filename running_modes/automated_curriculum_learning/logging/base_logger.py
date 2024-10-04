@@ -3,7 +3,7 @@ import logging
 import os
 from abc import ABC, abstractmethod
 
-from reinvent_scoring.scoring.enums.scoring_function_component_enum import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.enums.scoring_function_component_enum import ScoringFunctionComponentNameEnum
 
 from running_modes.automated_curriculum_learning.dto.timestep_dto import TimestepDTO
 from running_modes.configurations import GeneralConfigurationEnvelope, CurriculumLoggerConfiguration

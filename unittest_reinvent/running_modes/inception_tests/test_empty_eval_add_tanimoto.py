@@ -2,8 +2,8 @@ import numpy as np
 import numpy.testing as nt
 
 from reinvent_models.reinvent_core.models.model import Model
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
-from reinvent_scoring.scoring.function import CustomSum
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring.function import CustomSum
 from unittest_reinvent.fixtures.paths import PRIOR_PATH
 from unittest_reinvent.fixtures.test_data import PROPANE, BUTANE, ETHANE, HYDROPEROXYMETHANE
 from unittest_reinvent.running_modes.inception_tests.test_empty_base import TestInceptionEmptyBase

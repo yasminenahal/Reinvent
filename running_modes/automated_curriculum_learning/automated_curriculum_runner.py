@@ -1,5 +1,5 @@
 from reinvent_models.model_factory.generative_model_base import GenerativeModelBase
-from reinvent_scoring import ScoringFunctionFactory
+from reinvent_hitl_scoring import ScoringFunctionFactory
 
 from running_modes.automated_curriculum_learning.curriculum_strategy.curriculum_strategy import CurriculumStrategy
 from running_modes.automated_curriculum_learning.inception.inception import Inception

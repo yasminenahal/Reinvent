@@ -3,14 +3,14 @@ import os
 import shutil
 
 from reinvent_models.model_factory.enums.model_type_enum import ModelTypeEnum
-from reinvent_scoring.scoring.diversity_filters.lib_invent.diversity_filter_parameters import DiversityFilterParameters
+from reinvent_hitl_scoring.scoring.diversity_filters.lib_invent.diversity_filter_parameters import DiversityFilterParameters
 
 from running_modes.configurations import ReinforcementLoggerConfiguration, GeneralConfigurationEnvelope
 from running_modes.enums.logging_mode_enum import LoggingModeEnum
 from running_modes.enums.running_mode_enum import RunningModeEnum
 from running_modes.reinforcement_learning.logging import ReinforcementLogger
 from unittest_reinvent.fixtures.paths import MAIN_TEST_PATH
-from reinvent_scoring.scoring.diversity_filters.lib_invent import NoFilter
+from reinvent_hitl_scoring.scoring.diversity_filters.lib_invent import NoFilter
 from unittest_reinvent.fixtures.utils import count_empty_files
 
 

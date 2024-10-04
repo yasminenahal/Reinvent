@@ -2,7 +2,7 @@ import time
 
 import numpy as np
 
-from reinvent_scoring.scoring.score_summary import FinalSummary
+from reinvent_hitl_scoring.scoring.score_summary import FinalSummary
 from reinvent_chemistry.logging import fraction_valid_smiles
 
 from running_modes.automated_curriculum_learning.dto.timestep_dto import TimestepDTO

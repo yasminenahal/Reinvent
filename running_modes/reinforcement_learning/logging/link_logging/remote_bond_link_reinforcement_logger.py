@@ -2,8 +2,8 @@ import os
 import numpy as np
 import requests
 import torch
-from reinvent_scoring import ScoringFunctionComponentNameEnum, FinalSummary, ComponentSpecificParametersEnum
-from reinvent_scoring.scoring.diversity_filters.lib_invent.base_diversity_filter import BaseDiversityFilter
+from reinvent_hitl_scoring import ScoringFunctionComponentNameEnum, FinalSummary, ComponentSpecificParametersEnum
+from reinvent_hitl_scoring.scoring.diversity_filters.lib_invent.base_diversity_filter import BaseDiversityFilter
 
 import running_modes.utils.configuration as ull
 import reinvent_chemistry.logging as ul_rl

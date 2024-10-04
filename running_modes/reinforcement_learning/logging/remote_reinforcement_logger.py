@@ -4,9 +4,9 @@ import numpy as np
 import reinvent_chemistry.logging as ul_rl
 import requests
 import torch
-from reinvent_scoring.scoring.diversity_filters.reinvent_core.base_diversity_filter import BaseDiversityFilter
-from reinvent_scoring.scoring.enums.scoring_function_component_enum import ScoringFunctionComponentNameEnum
-from reinvent_scoring.scoring.score_summary import FinalSummary
+from reinvent_hitl_scoring.scoring.diversity_filters.reinvent_core.base_diversity_filter import BaseDiversityFilter
+from reinvent_hitl_scoring.scoring.enums.scoring_function_component_enum import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.score_summary import FinalSummary
 
 import running_modes.utils.configuration as ull
 import running_modes.utils.general

@@ -8,11 +8,11 @@ import running_modes.utils.general as utils_general
 from reinvent_models.reinvent_core.models.model import Model
 from running_modes.configurations.reinforcement_learning.inception_configuration import InceptionConfiguration
 from running_modes.reinforcement_learning.inception import Inception
-from reinvent_scoring.scoring.component_parameters import ComponentParameters
-from reinvent_scoring.scoring.function import CustomSum
+from reinvent_hitl_scoring.scoring.component_parameters import ComponentParameters
+from reinvent_hitl_scoring.scoring.function import CustomSum
 from unittest_reinvent.fixtures.paths import PRIOR_PATH, MAIN_TEST_PATH
 from unittest_reinvent.fixtures.test_data import ETHANE, HEXANE, BUTANE, METHOXYHYDRAZINE, ASPIRIN
-from reinvent_scoring.scoring.enums.scoring_function_component_enum import ScoringFunctionComponentNameEnum
+from reinvent_hitl_scoring.scoring.enums.scoring_function_component_enum import ScoringFunctionComponentNameEnum
 
 
 class TestInceptionAddBase(unittest.TestCase):

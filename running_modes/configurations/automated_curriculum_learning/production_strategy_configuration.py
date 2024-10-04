@@ -1,6 +1,6 @@
 from pydantic import BaseModel
-from reinvent_scoring import ScoringFunctionParameters
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning import DiversityFilterParameters
+from reinvent_hitl_scoring import ScoringFunctionParameters
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning import DiversityFilterParameters
 
 from running_modes.automated_curriculum_learning.learning_strategy.learning_strategy_configuration import \
     LearningStrategyConfiguration

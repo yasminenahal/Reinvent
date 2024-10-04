@@ -5,11 +5,11 @@ import unittest
 from reinvent_models.lib_invent.enums.generative_model_regime import GenerativeModelRegimeEnum
 from reinvent_models.model_factory.configurations.model_configuration import ModelConfiguration
 from reinvent_models.model_factory.generative_model import GenerativeModel
-from reinvent_scoring import ScoringFunctionParameters, ScoringFunctionNameEnum, ComponentParameters, \
+from reinvent_hitl_scoring import ScoringFunctionParameters, ScoringFunctionNameEnum, ComponentParameters, \
     ScoringFunctionComponentNameEnum
-from reinvent_scoring.scoring.diversity_filters.lib_invent.diversity_filter import DiversityFilter
-from reinvent_scoring.scoring.diversity_filters.lib_invent.diversity_filter_parameters import DiversityFilterParameters
-from reinvent_scoring.scoring.enums.diversity_filter_enum import DiversityFilterEnum
+from reinvent_hitl_scoring.scoring.diversity_filters.lib_invent.diversity_filter import DiversityFilter
+from reinvent_hitl_scoring.scoring.diversity_filters.lib_invent.diversity_filter_parameters import DiversityFilterParameters
+from reinvent_hitl_scoring.scoring.enums.diversity_filter_enum import DiversityFilterEnum
 from torch.optim import Adam
 
 from running_modes.configurations import ReinforcementLoggerConfiguration, GeneralConfigurationEnvelope

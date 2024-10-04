@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from reinvent_scoring import ScoringFunctionParameters
+from reinvent_hitl_scoring import ScoringFunctionParameters
 
 
 @dataclass

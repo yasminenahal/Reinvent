@@ -8,9 +8,9 @@ from reinvent_models.model_factory.configurations.model_configuration import Mod
 from reinvent_models.model_factory.enums.model_type_enum import ModelTypeEnum
 from reinvent_models.model_factory.generative_model import GenerativeModel
 from reinvent_models.model_factory.generative_model_base import GenerativeModelBase
-from reinvent_scoring import FinalSummary
-from reinvent_scoring.scoring.diversity_filters.reinvent_core.base_diversity_filter import BaseDiversityFilter
-from reinvent_scoring.scoring.function.base_scoring_function import BaseScoringFunction
+from reinvent_hitl_scoring import FinalSummary
+from reinvent_hitl_scoring.scoring.diversity_filters.reinvent_core.base_diversity_filter import BaseDiversityFilter
+from reinvent_hitl_scoring.scoring.function.base_scoring_function import BaseScoringFunction
 
 from running_modes.configurations import ReinforcementLearningConfiguration
 from running_modes.constructors.base_running_mode import BaseRunningMode

@@ -1,5 +1,5 @@
 from dacite import from_dict
-from reinvent_scoring.scoring import ScoringFunctionFactory
+from reinvent_hitl_scoring.scoring import ScoringFunctionFactory
 
 from running_modes.constructors.base_running_mode import BaseRunningMode
 from running_modes.configurations import GeneralConfigurationEnvelope, ScoringRunnerComponents

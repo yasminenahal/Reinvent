@@ -1,6 +1,6 @@
 from reinvent_models.model_factory.generative_model_base import GenerativeModelBase
-from reinvent_scoring import ScoringFunctionFactory
-from reinvent_scoring.scoring.diversity_filters.curriculum_learning.diversity_filter import DiversityFilter
+from reinvent_hitl_scoring import ScoringFunctionFactory
+from reinvent_hitl_scoring.scoring.diversity_filters.curriculum_learning.diversity_filter import DiversityFilter
 
 from running_modes.automated_curriculum_learning.inception.inception import Inception
 from running_modes.automated_curriculum_learning.logging.base_logger import BaseLogger

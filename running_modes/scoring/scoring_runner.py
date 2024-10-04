@@ -1,6 +1,6 @@
 from reinvent_chemistry.file_reader import FileReader
-from reinvent_scoring.scoring.function.base_scoring_function import BaseScoringFunction
-from reinvent_scoring.scoring.score_summary import FinalSummary
+from reinvent_hitl_scoring.scoring.function.base_scoring_function import BaseScoringFunction
+from reinvent_hitl_scoring.scoring.score_summary import FinalSummary
 
 from running_modes.constructors.base_running_mode import BaseRunningMode
 from running_modes.configurations.general_configuration_envelope import GeneralConfigurationEnvelope
