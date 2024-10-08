@@ -14,7 +14,7 @@ Installation
 
 4. Activate the environment:
    
-        $ conda activate reinvent.v3.2
+        $ conda activate reinvent-hitl
 
 5. Use the tool.
 
