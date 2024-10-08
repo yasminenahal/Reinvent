@@ -214,7 +214,7 @@ dependencies:
     - protobuf==3.11.3
     - reinvent-chemistry==0.0.50
     - reinvent-models==0.0.15rc1
-    - reinvent-hitl-scoring==0.0.18
+    - reinvent-hitl-scoring==0.0.19
     - tensorboard==1.15.0
     - tensorflow==1.15.2
     - tensorflow-estimator==1.15.1
